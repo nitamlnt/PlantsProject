@@ -9,7 +9,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.nit.plantsproject.R;
 
 public class MainActivity extends AppCompatActivity {
-
+ //info home
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
