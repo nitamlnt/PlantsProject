@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "98315535184",
+    "firebase_url": "https://plantsproject-34077-default-rtdb.firebaseio.com",
+    "project_id": "plantsproject-34077",
+    "storage_bucket": "plantsproject-34077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98315535184:android:e2fa2a46ee8315b93ce255",
+        "android_client_info": {
+          "package_name": "com.nit.plantsproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1DQBu6YRysbQ1-G-AN3nH8AnUE-3O4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.About"
+    android:background="@drawable/bgprofile">
+
+    <!-- Arrow Left -->
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <!-- Tittle About -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="70dp"/>
+
+
+    <!-- Scroll View About -->
+    <ScrollView
+        android:layout_below="@+id/arrow_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <!-- Text What is cooking Recipe -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is Plants?"
+                android:layout_marginTop="15dp"
+                android:textSize="19sp"
+                android:textColor="@color/black"/>
+
+            <!-- Text contents of about -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plants (Planner and Notes) is an application creation that focuses on developing and providing applications that make it easier for users to take notes, and make plans. These apps are usually available as mobile apps, and offer features like note searching, reading list creation, planning you name it."
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The aim of creating a planner and notes application is to make creating, writing, recording and registering plans and notes for our needs easier and more fun. By providing a platform that is easy to use and unique to create, it allows users to be more organized or directed in their daily lives."
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The demand for planner and note-taking apps has grown rapidly, as more and more people are looking for ways to stay organized and not forget what they have to do in their lives. The emergence of the internet and social media has also contributed to the popularity of planner and note-taking applications, as more and more people are turning to online sources for convenience that can be carried and carried anywhere and at any time."
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One of the main benefits of the recipe application is its ability to make it easier for users to create and record anything that is important for users in carrying out their daily work, work or anything else. Users can make plans, notes and create reading list."
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

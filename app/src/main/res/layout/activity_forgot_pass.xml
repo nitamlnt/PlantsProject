@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginregister.ForgotPassActivity"
+    android:background="@drawable/background">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/frame_login"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/edt_name_forgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/edt_email_forgotpassword"
+            android:hint="New Username (optional)"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_person_24"/>
+        <EditText
+            android:id="@+id/edt_email_forgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_email_24"/>
+        <EditText
+            android:id="@+id/edt_password_forgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="195dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword"
+            android:layout_below="@id/edt_name_forgotpassword"
+            android:hint="New Password (optional)"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_lock_24"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_reset_forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="102dp"
+        android:text="RESET PASSWORD"
+        android:textColor="#8D8699"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="50dp"
+        app:elevation="5dp" />
+
+    <Button
+        android:id="@+id/btn_login_forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="LOGIN"
+        android:textColor="#8D8699"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="50dp"
+        app:elevation="5dp" />
+
+</RelativeLayout>
+
+
+
+

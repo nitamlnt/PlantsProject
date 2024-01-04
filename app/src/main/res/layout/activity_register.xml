@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginregister.LoginActivity"
+    android:background="@drawable/background">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/frame_login"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/edt_name_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:hint="Username"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_person_24"/>
+        <EditText
+            android:id="@+id/edt_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_email_24"/>
+        <EditText
+            android:id="@+id/edt_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="195dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textSize="15dp"
+            android:drawablePadding="12dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_lock_24"/>
+
+        <TextView
+            android:id="@+id/txt_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="122dp"
+            android:text="Already have an account?"
+            android:textColor="#0038C5"
+            android:textSize="12dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_register_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="74dp"
+        android:text="Register"
+        android:textColor="#8D8699"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="50dp"
+        app:elevation="5dp" />
+
+</RelativeLayout>
+
+
+
+

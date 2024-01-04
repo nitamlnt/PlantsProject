@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.PrivacyPolicy"
+    android:background="@drawable/bgprofile">
+
+    <!-- Arrow Left -->
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <!-- Titlle Privacy and Policy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy and Policy"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="70dp"/>
+
+
+    <!-- Scrool View Privacy and Policy -->
+    <ScrollView
+        android:layout_below="@+id/arrow_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <!-- Text Privacy Policy for Cooking Recipe Application -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy for Plant Applicacion"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <!-- Text contents of privacy and policy -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At the Plants App, accessible from Plants.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information is collected and recorded by Plants.com and how we use it. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at plantsfriends@gmail.com."
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Information We Collect:"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#272727"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plants.com collects personal information from users when they register for an account, or use certain features of our applications. The personal information we collect may include:"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Username"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Email address and password"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• User-generated content, such as planners or notes"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Third Party Privacy Policies:"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#272727"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plants.com Privacy Policy does not apply to other advertisers or websites. Therefore, we recommend that you carefully read the respective Privacy Policies of such third parties for more detailed information."
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plants.com does not knowingly collect any external personally identifiable information from you. If you think your account provides this kind of information on our website, we strongly encourage you to contact us immediately and we will use our best efforts to promptly remove such information from our records."
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agreement:"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#272727"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "By using our website, you hereby consent to our Privacy Policy and agree to its terms and conditions."
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

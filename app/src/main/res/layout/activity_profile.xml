@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.ProfileActivity"
+    android:background="@drawable/profilebg">
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="102dp"
+        android:layout_height="101dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/txt_username_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageview_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_setting_profile"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="245dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txt_username_profile"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="About"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:backgroundTint="@color/white"
+                android:elevation="0dp"
+                android:id="@+id/btn_about_profile"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Privacy and Policy"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:backgroundTint="@color/white"
+                android:elevation="0dp"
+                android:id="@+id/btn_policy_profile"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="FAQ"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:layout_marginTop="119dp"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:backgroundTint="@color/white"
+                android:elevation="0dp"
+                android:id="@+id/btn_faq_profile"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Contact US"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:layout_marginTop="179dp"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:backgroundTint="@color/white"
+                android:elevation="0dp"
+                android:id="@+id/btn_contact_profile"/>
+
+        </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_logout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="159dp"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lavender"
+        app:cornerRadius="50dp"
+        app:elevation="5dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
